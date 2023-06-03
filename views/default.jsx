@@ -3,7 +3,7 @@ function Def (html) {
     return (
         <html>
             <head>
-                <title>Places</title>
+                <title>Title</title>
             </head>
             <body>
                 {html.children}
