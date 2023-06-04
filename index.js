@@ -3,11 +3,14 @@ const express = require('express')
 const app = express()
 
 
+app.use(express.urlencoded({ extended: true }))
 app.set('views, __dirname + "/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 app.use('/places', require('./controllers/places'))
 app.use(express.static('public'))
+
+
 
 
 app.get('/', (req, res) => {

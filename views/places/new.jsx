@@ -36,7 +36,7 @@ function new_form() {
         </form>
       </main>
     </Def>
-  );
+  )
 }
 
 module.exports = new_form
