@@ -4,10 +4,7 @@ function Def(html) {
     <html>
       <head>
         <title>Title</title>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
         <link rel="stylesheet" href="/css/style.css" />
       </head>
       <body>
@@ -24,9 +21,9 @@ function Def(html) {
             </li>
           </ul>
         </nav>
-
         {html.children}
       </body>
+      <footer>Footer & Content Links</footer>
     </html>
   );
 }
