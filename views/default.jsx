@@ -23,7 +23,6 @@ function Def(html) {
         </nav>
         {html.children}
       </body>
-      <footer>Footer & Content Links</footer>
     </html>
   );
 }
