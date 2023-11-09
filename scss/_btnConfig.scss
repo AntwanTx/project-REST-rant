@@ -1,0 +1,6 @@
+@import "config";
+
+.btn-primary{
+    @extend %btn;
+    @include set-bg($primary-color);
+}
